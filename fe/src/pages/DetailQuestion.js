@@ -1,4 +1,5 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
 import styled from "styled-components";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -88,7 +89,7 @@ function DetailQuestion() {
                       </QuestionWrapper>
                     </ContentWrapper>
                   </Flex>
-                   <ReadAnswer />
+                  <ReadAnswer />
                   <AddAnswer />
                 </div>
               </div>
